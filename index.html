@@ -7,37 +7,22 @@
     </title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title>ES6 JavaScript Example</title>
-    </head>
-    <body>
-        <!DOCTYPE html>
-        <html>
-        <head>
-            <title>Marla to Square Feet Converter</title>
-        </head>
-        <body class="body">
+
+    <body class="body">
+        <form onsubmit="marla(event)">
             <h1 class="heading">Marla to Square Feet Converter</h1>
         
             <label for="marlaInput">Enter Marlas:</label>
-            <input type="number" id="marlaInput" placeholder="Enter Marlas">
+                <input type="number" id="marlaInput" placeholder="Enter Marlas" required>
         
             <button id="convertButton">Convert</button>
         
             <p id="result">Result will be displayed here</p>
         
-          
-        </body>
-        </html>
-        
-    </body>
-    </html>
-    
+       
+   
 
-    <script src="script.mjs"></script>
-</body>
+            <script src="script.mjs"></script>
+        </form>   
+    </body>
 </html>
